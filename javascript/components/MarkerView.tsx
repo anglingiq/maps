@@ -123,6 +123,7 @@ class MarkerView extends React.PureComponent<Props> {
         }}
       >
         <View
+          pointerEvents={'box-none'}
           style={{ flex: 0, alignSelf: 'flex-start' }}
           onStartShouldSetResponder={(_event) => {
             return true;
